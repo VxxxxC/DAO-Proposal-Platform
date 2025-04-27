@@ -24,6 +24,7 @@ export const Home = () => {
 
   return (
     <>
+
       <h1>HOME PAGE</h1>
 
       <appkit-button />
@@ -38,6 +39,7 @@ export const Home = () => {
         signedMsg={signedMsg}
         balance={balance}
       />
+
     </>
   );
 };
