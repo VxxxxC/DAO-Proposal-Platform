@@ -67,16 +67,16 @@ export const SmartContractActionButtonList = () => {
           address: storageSC,
           abi: storageABI,
           functionName: 'store',
-          args: [123n],
+          args: [999n],
         })
     }
 
 
   return (
-    isConnected && chainId === 11155111 && ( // Only show the buttons if the user is connected to Sepolia
+    isConnected && chainId === 11155111 && ( // NOTE: Only show the buttons if the user is connected to Sepolia
     <div >
-        <button onClick={handleReadSmartContract}>Read Sepolia Smart Contract</button>
-        <button onClick={handleWriteSmartContract}>Write Sepolia Smart Contract</button>  
+        <button onClick={handleReadSmartContract}>Read Sepolia Smart Contract</button> {/* TODO: Change to Create Proposal Button */}
+        <button onClick={handleWriteSmartContract}>Write Sepolia Smart Contract</button> {/* TODO: Chane to Voting Proposal Button */} 
     </div>
     )
   )

@@ -75,10 +75,10 @@ export const ActionButtonList = ({ sendHash, sendSignMsg, sendBalance }: ActionB
     <div >
         <button onClick={() => open()}>Open</button>
         <button onClick={handleDisconnect}>Disconnect</button>
-        <button onClick={() => switchNetwork(networks[1]) }>Switch</button>
+        {/*<button onClick={() => switchNetwork(networks[1]) }>Switch</button>
         <button onClick={handleSignMsg}>Sign msg</button>
         <button onClick={handleSendTx}>Send tx</button>
-        <button onClick={handleGetBalance}>Get Balance</button>  
+        <button onClick={handleGetBalance}>Get Balance</button>*/}
     </div>
     )
   )
