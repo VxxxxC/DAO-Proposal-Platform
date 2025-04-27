@@ -11,10 +11,10 @@ if (!projectId) {
 }
 
 export const metadata = {
-    name: 'AppKit',
-    description: 'AppKit Example',
-    url: 'https://reown.com', // origin must match your domain & subdomain
-    icons: ['https://avatars.githubusercontent.com/u/179229932']
+    name: 'THINK',
+    description: 'DAO Proposal Platform',
+    url: '', // origin must match your domain & subdomain
+    icons: ['']
   }
 
 // for custom networks visit -> https://docs.reown.com/appkit/react/core/custom-networks
