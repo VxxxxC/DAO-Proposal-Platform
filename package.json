@@ -1,5 +1,6 @@
 {
-  "name": "react-wagmi-appkit",
+  "name": "DAO Proposal Platform",
+  "author": "VxxxxC",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -16,10 +17,12 @@
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "viem": "^2.23.6",
+    "vite-tsconfig-paths": "^5.1.4",
     "wagmi": "^2.14.12"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
+    "@types/node": "^22.15.2",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.1",
