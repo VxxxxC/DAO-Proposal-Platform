@@ -31,7 +31,7 @@ createAppKit({
 export function App() {
 
   return (
-    <div className={"pages"}>
+    <div className="min-w-screen min-h-screen">
       <WagmiProvider config={wagmiAdapter.wagmiConfig}>
         <QueryClientProvider client={queryClient}>
           <Home />

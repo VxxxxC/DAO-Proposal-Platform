@@ -24,10 +24,12 @@ export const Home = () => {
 
   return (
     <>
-
+      <div className="w-full h-full px-5 flex flex-col items-center">
       <h1>HOME PAGE</h1>
 
+      <div className="self-end">
       <appkit-button />
+      </div>
       <ActionButtonList
         sendHash={receiveHash}
         sendSignMsg={receiveSignedMsg}
@@ -39,7 +41,7 @@ export const Home = () => {
         signedMsg={signedMsg}
         balance={balance}
       />
-
+    </div>
     </>
   );
 };
